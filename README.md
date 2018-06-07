@@ -188,7 +188,7 @@ The value of the frequencies is shown in square brackets.
 ```
 
 <p align="center">
-  <img width="400" height="400" style="display: block;" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
+  <img width="400" height="400" style="display: block" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
 </p>
 
 
