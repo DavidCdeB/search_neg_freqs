@@ -186,7 +186,7 @@ The value of the frequencies is shown in square brackets.
 ['-53.6360']
 ['-47.1959', '-47.1959']
 ```
-<img width="400" height="400" style="display: block" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
+<img width="400" height="400" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
 
 <a name="example3"></a>
 ## Test
