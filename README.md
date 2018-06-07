@@ -11,17 +11,19 @@
 3. [Test](#example3)
 4. [How to cite](#example4)
 5. [Contributing](#example5)
-6. [References](#example6)
 
 
 <a name="example"></a>
 ## What is the `search_neg_freqs` program ?
 
- `search_neg_freqs` is a program for computational chemistry and physics that
+* `search_neg_freqs` is a program for computational chemistry and physics that
 will print out the negative frequencies found over a set of volumes.
 
-allows to automate the runs for frequency calculations, and breaking symmetry over different volumes.
-The programs on this repository allow to obtain the needed outputs in order to further perform a quasi-harmonic approximation analyisis with the [`QHA_2D` program](https://github.com/DavidCdeB/QHA_2D)
+* The information obtained from the scripts on this repository 
+is used to run the scripts on the [EOS_2_phonons](https://github.com/DavidCdeB/EOS_2_phonons) repository.
+
+* The [EOS_2_phonons](https://github.com/DavidCdeB/EOS_2_phonons) repository contains the scripts necessary to automate the runs for frequency calculations, and breaking symmetry over different volumes.
+The programs on [EOS_2_phonons](https://github.com/DavidCdeB/EOS_2_phonons) repository allow to obtain the needed outputs in order to further perform a quasi-harmonic approximation analyisis with the [`QHA_2D` program](https://github.com/DavidCdeB/QHA_2D)
 
 The program was developed as part of [David Carrasco de Busturia PhD project](https://www.imperial.ac.uk/people/d.carrasco-de-busturia/) at [Prof. Nicholas Harrison's Computational Materials Science Group](http://www.imperial.ac.uk/computational-materials-science/), Imperial College London. The program was used to investigate the phase diagram and phase transitions mechanisms on the calcium carbonate system.
 
@@ -185,11 +187,8 @@ The value of the frequencies is shown in square brackets.
 ['-47.1959', '-47.1959']
 ```
 
-* The information obtained from the scripts on this repository 
-is used to run the scripts on the [EOS_2_phonons](https://github.com/DavidCdeB/EOS_2_phonons) repository.
-
 <p align="center">
-  <img src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
+  <img width="256" height="256" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
 </p>
 
 
@@ -224,11 +223,4 @@ All contributions to improve this code are more than welcome.
     * If you think a new feature would be interesting, open an issue
     * If you need a particular feature for your project contact me directly.
 
-
-<a name="example6"></a>
-## References
-
-[1] Stokes, Harold T. and Hatch, Dorian M., Journal of Applied Crystallography 2005, 38, 237-238
-
-[2] Björkman, T., Computer Physics Communications 182, 1183–1186 (2011)
 
