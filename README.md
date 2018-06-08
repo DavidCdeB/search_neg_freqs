@@ -17,7 +17,8 @@
 ## What is the `search_neg_freqs` program ?
 
 * `search_neg_freqs` is a program for computational chemistry and physics that
-will print out the negative frequencies found over a set of volumes.
+will print out the negative frequencies 
+at each volume calculated with [CRYSTAL](http://www.crystal.unito.it/index.php).
 
 * The information obtained from the scripts on this repository 
 is used to run the scripts on the [EOS_2_phonons](https://github.com/DavidCdeB/EOS_2_phonons) repository.
@@ -187,7 +188,7 @@ The value of the frequencies is shown in square brackets.
 ['-47.1959', '-47.1959']
 ```
 <p align="center">
-  <img width="318.72479mm" height="97.003448mm" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract2.svg">
+  <img width="318.72479mm" height="97.003448mm" src="https://github.com/DavidCdeB/search_neg_freqs/blob/master/Images_for_README_md/extract.svg">
 </p>
 
 <a name="example3"></a>
