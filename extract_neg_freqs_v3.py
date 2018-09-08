@@ -18,6 +18,12 @@ for fname in glob.glob(template):
   f = open(fname, 'r')
   real_part = False
   for line in f:
+        if 'A          B          C        ALPHA      BETA     GAMMA        VOLUME' in line:
+          tar = f.next()
+          aux2 = tar.split()
+          volume = aux2[6]
+          print 'VOLUME/CELL = ', volume
+
         if 'WITH SHRINKING FACTORS' in line:
            print line
 
